@@ -1,0 +1,49 @@
+.header {
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+
+.header__row {
+    background-color: white;
+    border-radius: 100%;
+    padding: 12px;
+}
+
+
+
+.paintTitleAnim{
+    
+    color: #AE445A;
+    
+    animation-name: alertP;
+        animation-duration: 1s;
+        animation-timing-function: linear;
+        animation-iteration-count:infinite;
+        animation-direction: normal;
+        animation-play-state: running;
+        animation-delay: 0s;
+
+}
+
+
+@keyframes alertP {
+    0%{
+        transform: rotate(0);
+    }
+    25%{
+        transform: rotate(5deg);
+        font-size: 18px;
+    }
+    50%{
+        transform: rotate(0);
+        
+    }
+    75%{
+        transform: rotate(-5deg);
+        
+        
+    }
+    100%{
+        transform: rotate(0);
+    }
+}

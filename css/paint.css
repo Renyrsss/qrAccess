@@ -1,0 +1,47 @@
+.obsalutePaint {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(162, 162, 162, 0.84);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: none;
+    
+}
+
+.paintTitle {
+    background-color: #E9EEF7;
+    width: 70%;
+
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 9px;
+
+    margin: 20px auto 80px auto;
+}
+
+.paintBody {
+    background-color: white;
+    width: 80%;
+    margin: 0 auto;
+    height: 300px;
+    border-radius: 9px;
+    margin-bottom: 40px;
+}
+
+.paintBtns{
+    display: flex;
+    justify-content: center;
+}
+.main__btn{
+    cursor: pointer;
+}
+
+.clear-button{
+    margin-right: 20px;
+    background-color: #0C7078;;
+}

@@ -1,0 +1,181 @@
+@import './null.css';
+
+@import './header.css';
+@import './main.css';
+@import './paint.css';
+html{
+    height: 100%;
+    background: linear-gradient(#8FB3EA, #7EFBD5);
+}
+html body{
+    
+    background-color: inherit;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.wrapper2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* min-height: 100vh; */
+
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: linear-gradient(#8FB3EA, #7EFBD5);
+    display: none;
+}
+
+
+.btn2{
+    background-color:#294D61 ;
+    border-radius: 9px;
+    padding: 10px 40px;
+    color: white;
+    cursor: pointer;
+
+}
+.btns form {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+
+html body .activ{
+    display: block;
+}
+
+
+.exit  {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.exit p{
+    display: inline-block;
+    background-color: white;
+    /* padding: 8px; */
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+
+
+.myCanvas{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.paintBody div{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/* pdfdoc------------------------------------ */
+
+
+
+
+
+
+.pdfDoc{
+    display: none;
+    
+}
+.pdf-content2{
+    display: none;
+}
+
+/* .FIOMain {
+    position: relative;
+
+
+}
+.ImageInsert{
+    position: relative;
+} */
+/* .ImageInsert img {
+    display: inline-block;
+    width: 150px;
+} */
+
+/* .dataAlign {
+    display: flex;
+    justify-content: space-between;
+}
+
+.FIOMain img {
+    width: 150px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.UserData{
+    display: inline-block;
+} */
+
+.sucsessImg img{
+        position: absolute;
+        bottom: -20%;
+        left: 0;
+        margin-left: -100%;
+}
+
+.sucsessImg .activeImg{
+    
+
+    animation-name:doctorLike ;
+    animation-duration: 3s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-delay: 0s;
+
+}
+
+@keyframes doctorLike {
+    0%{
+        margin-left: -100%;
+    }
+    50%{
+        margin-left: -15%;
+        transform: rotate(25deg);
+    }
+    100%{
+        margin-left: -100%;
+    }
+}
+
+
+
+/* bootstrap */
+
+
+.accordion-body{
+    max-height: 350px;
+    overflow: auto;
+}
